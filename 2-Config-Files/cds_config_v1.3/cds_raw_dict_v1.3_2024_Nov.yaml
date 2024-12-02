@@ -1,28 +1,7 @@
-MultiplexMicroscopy:
-  channel_metadata_filename: channel_metadata_file_url_in_cds
-  embedding_medium: embedding_medium
-  imaging_assay_type: imaging_assay_type
-  immersion: immersion
-  lens_numerical_aperture: lens_numerical_aperture
-  nominal_magnification: nominal_magnification
-  objective: objective
-  physical_size_x: physical_size_x
-  physical_size_y: physical_size_y
-  physical_size_z: physical_size_z
-  pyramid: pyramid
-  size_c: size_c
-  size_t: size_t
-  size_x: size_x
-  size_y: size_y
-  size_z: size_z
-  staining_method: staining_method
-  tissue_fixative: tissue_fixative
-  tumor_tissue_type: tumor_tissue_type
-  working_distance: working_distance
 diagnosis:
   age_at_diagnosis: age_at_diagnosis
   days_to_last_followup: days_to_last_followup
-  days_to_last_known_disease_status: days_to_last_known_disease_status
+  days_to_last_known_disease_status: days_to_last_known_status
   days_to_recurrence: days_to_recurrence
   diagnosis_id: diagnosis_id
   disease_type: disease_type
@@ -36,8 +15,6 @@ diagnosis:
   tumor_stage_clinical_t: tumor_stage_clinical_t
   tumor_stage_clinical_m: tumor_stage_clinical_m
   days_to_recurrence: days_to_recurrence
-  site_of_resection_or_biopsy: site_of_resection_or_biopsy
-  tissue_or_organ_of_origin: tissue_or_organ_of_origin
 file:
   GUID: file_id
   guid: file_id
@@ -53,17 +30,36 @@ file:
   sum: md5sum
   submission_version: submission_version
 image:
-  study_link_id: study_link_id
-  de-identification_method_type: de_identification_method_type
-  de_identification_method_type: de_identification_method_type
+  channel_metadata_filename: channel_metadata_file_url_in_cds
+  citation_or_DOI: citation_or_DOI
+  de.identification_method_type: de_identification_method_type
+  embedding_medium: embedding_medium
+  imaging_assay_type: imaging_assay_type
   imaging_equipment_manufacturer: imaging_equipment_manufacturer
   imaging_equipment_model: imaging_equipment_model
   imaging_modality: image_modality
   imaging_protocol: imaging_protocol
-  imaging_software: imaging_software
-  imaging_sofware: imaging_software
+  imaging_software: imaging_sofware
+  immersion: immersion
+  lens_numerical_aperture: lens_numerical_aperture
   license: license
+  nominal_magnification: nominal_magnification
+  objective: objective
   organ_or_tissue: organ_or_tissue
+  physical_size_x: physical_size_x
+  physical_size_y: physical_size_y
+  physical_size_z: physical_size_z
+  pyramid: pyramid
+  size_c: size_c
+  size_t: size_t
+  size_x: size_x
+  size_y: size_y
+  size_z: size_z
+  staining_method: staining_method
+  study_link_ID: study_link_id
+  tissue_fixative: tissue_fixative
+  tumor_tissue_type: tumor_tissue_type
+  working_distance: working_distance
 genomic_info:
   avg_read_length: avg_read_length
   bases: bases

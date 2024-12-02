@@ -29,6 +29,7 @@ instrument_model:
 reference_genome_assembly:
   hg19 / GRCh37: GRCh37
   hs37d5: GRCh37
+  HG19: GRCh37
   GRCh38.p12: GRCh38
   GRCh38.p13: GRCh38
   GRCh38_ens93filt: GRCh38
@@ -624,6 +625,7 @@ sample_type:
   'C80 : UNKNOWN PRIMARY SITE': Unknown
   'C80.9 : Unknown primary site': Unknown
   'C72.9 : Central nervous system': Central Nervous System
+  Cell: Cells
   peripheral blood - Blood Derived Cancer: Blood
   Tissue Biospecimen Type: Tissue
   Invalid value: null

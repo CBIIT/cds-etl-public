@@ -1,5 +1,6 @@
 MultiplexMicroscopy:
-  channel_metadata_filename: channel_metadata_file_url_in_cds
+  MultiplexMicroscopy_id: MultiplexMicroscopy_id
+  channel_metadata_file_url_in_cds: channel_metadata_file_url_in_cds
   embedding_medium: embedding_medium
   imaging_assay_type: imaging_assay_type
   immersion: immersion
@@ -19,10 +20,20 @@ MultiplexMicroscopy:
   tissue_fixative: tissue_fixative
   tumor_tissue_type: tumor_tissue_type
   working_distance: working_distance
+image:
+  de_identification_method_type: de_identification_method_description
+  image_modality: image_modality
+  imaging_equipment_manufacturer: imaging_equipment_manufacturer
+  imaging_equipment_model: imaging_equipment_model
+  imaging_protocol: imaging_protocol
+  imaging_sofware: imaging_software
+  license: license
+  organ_or_tissue: organ_or_tissue
+  study_link_id: study_link_id
 diagnosis:
   age_at_diagnosis: age_at_diagnosis
   days_to_last_followup: days_to_last_followup
-  days_to_last_known_disease_status: days_to_last_known_disease_status
+  days_to_last_known_disease_status: days_to_last_known_status
   days_to_recurrence: days_to_recurrence
   diagnosis_id: diagnosis_id
   disease_type: disease_type
@@ -36,8 +47,6 @@ diagnosis:
   tumor_stage_clinical_t: tumor_stage_clinical_t
   tumor_stage_clinical_m: tumor_stage_clinical_m
   days_to_recurrence: days_to_recurrence
-  site_of_resection_or_biopsy: site_of_resection_or_biopsy
-  tissue_or_organ_of_origin: tissue_or_organ_of_origin
 file:
   GUID: file_id
   guid: file_id
@@ -52,18 +61,6 @@ file:
   md5: md5sum
   sum: md5sum
   submission_version: submission_version
-image:
-  study_link_id: study_link_id
-  de-identification_method_type: de_identification_method_type
-  de_identification_method_type: de_identification_method_type
-  imaging_equipment_manufacturer: imaging_equipment_manufacturer
-  imaging_equipment_model: imaging_equipment_model
-  imaging_modality: image_modality
-  imaging_protocol: imaging_protocol
-  imaging_software: imaging_software
-  imaging_sofware: imaging_software
-  license: license
-  organ_or_tissue: organ_or_tissue
 genomic_info:
   avg_read_length: avg_read_length
   bases: bases
