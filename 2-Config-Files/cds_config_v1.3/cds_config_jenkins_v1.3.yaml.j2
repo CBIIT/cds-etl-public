@@ -65,6 +65,11 @@ PARENT_MAPPING_COLUMNS:
     parent_node: file
     property: file_id
     relationship: of_file
+  -
+    node: MultiplexMicroscopy
+    parent_node: image
+    property: study_link_id
+    relationship: of_file
 
 COMBINE_NODE:
   -
@@ -116,6 +121,10 @@ SECONDARY_ID_COLUMN:
     node: image
     node_id: study_link_id
     secondary_id: file.file_id
+  -
+    node: MultiplexMicroscopy
+    node_id: MultiplexMicroscopy_id
+    secondary_id: image.study_link_id
 
 REMOVE_NODES:
   #- diagnosis
@@ -130,3 +139,4 @@ NODE_ID_FIELD:
   diagnosis: study_diagnosis_id
   genomic_info: genomic_info_id
   image: study_link_id
+  MultiplexMicroscopy: MultiplexMicroscopy_id
