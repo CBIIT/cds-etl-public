@@ -296,6 +296,8 @@ primary_diagnosis:
   '9540/3 : Malignant Peripheral Nerve Sheath Tumor, NOS': Malignant Peripheral Nerve Sheath Tumor, NOS
   '9560/0 : Schwannoma, NOS, Other': Schwannoma, NOS
   '9570/0 : Neuroma, NOS': Neuroma, NOS
+  Intraductal carcinoma, NOS: Intraductal Carcinoma NOS
+  Non-small cell carcinoma: Non-small Cell Carcinoma
   9Acute Myeloid Leukemia, minimal differentiation: Acute Myeloid Leukemia, Minimal Differentiation
   Acinar cell carcinoma: Acinar Cell Carcinoma
   Acral lentiginous melanoma, malignant: Acral Lentiginous Melanoma, Malignant
@@ -681,5 +683,64 @@ morphology:
   solid, cribiform, comedo: Solid, Cribiform, Comedo
 de_identification_method_type:
   manual: Manual
+tissue_fixative:
+  Oct media: OCT media
+  unknown: Unknown
+site_of_resection_or_biopsy:
+  Axillary tail of breast: Axillary Tail of the Breast
+  Breast, NOS: Breast
+  Central portion of breast: Central Portion of the Breast
+  Colon, NOS: Colon
+  Descending colon: Descending Colon
+  Kidney, NOS: Kidney
+  Lower lobe, lung: Lower Lobe of the Lung
+  Lower-inner quadrant of breast: Lower-Inner Quadrant of the Breast
+  Lower-outer quadrant of breast: Lower-Outer Quadrant of the Breast
+  Lung, NOS: Lung
+  Lymph nodes of axilla or arm: Lymph Nodes of Axilla or Arm
+  Lymph nodes of head, face and neck: Lymph Nodes of Head, Face and Neck
+  Lymph nodes of inguinal region or leg: Lymph Nodes of Inguinal Region or Leg
+  Lymph nodes of multiple regions: Lymph Nodes of Multiple Regions
+  Nasal cavity: Nasal Cavity
+  Overlapping lesion of breast: Overlapping Lesion of the Breast
+  Pancreas, NOS: Pancreas
+  Rectosigmoid junction: Rectosigmoid Junction
+  Rectum, NOS: Rectum
+  Sigmoid colon: Sigmoid Colon
+  Skin of lower limb and hip: Skin of Lower Limb and Hip
+  Skin of scalp and neck: Skin of Scalp and Neck
+  Skin of trunk: Skin of Trunk
+  Skin of upper limb and shoulder: Skin of Upper Limb and Shoulder
+  Tonsil, NOS: Tonsil
+  Transverse colon: Transverse Colon
+  Upper lobe, lung: Upper Lobe of the Lung
+  Ascending colon: Ascending Colon
+  Upper-inner quadrant of breast: Upper-Inner Quadrant of the Breast
+  Upper-outer quadrant of breast: Upper-Outer Quadrant of the Breast
+organ_or_tissue:
+  Adrenal gland NOS: Adrenal Gland
+  Mediastinum NOS: Mediastinum
+  Breast NOS: Breast
+  Upper-outer quadrant of breast: Upper-Outer Quadrant of the Breast
+  Lower-outer quadrant of breast: Lower-Outer Quadrant of the Breast
+  Overlapping lesion of breast: Overlapping Lesion of the Breast
+  Upper-inner quadrant of breast: Upper-Inner Quadrant of the Breast
+  Bone marrow: Bone Marrow
+  Connective subcutaneous and other soft tissues of head face and neck: Connective Subcutaneous and other Soft Tissues of Head Face and Neck
+  Pancreas NOS: Pancreas
+  Tonsil NOS: Tonsil
+  Skin of upper limb and shoulder: Skin of Upper Limb and Shoulder
+  Skin of trunk: Skin of Trunk
+  Skin of lower limb and hip: Skin of Lower Limb and Hip
+  Skin of scalp and neck: Skin of Scalp and Neck
+  Sigmoid colon: Sigmoid Colon
+  Ascending colon: Ascending Colon
+  Rectosigmoid junction: Rectosigmoid Junction
+  Transverse colon: Transverse Colon
+  Rectum NOS: Rectum
+  Descending colon: Descending Colon
+  Lung NOS: Lung
+  unknown: Unknown
+  Nasal cavity: Nasal Cavity
 extra_long_values:
   - "Library construction is performed using the Illumina TruSeqÊ DNA Sample Preparation Kit (cat# FC-121-2001, FC-121-2002) using the following methods.Ê Genomic DNA (approximatelyÊ 10 ng to 2 ug) is sheared in a volume of 52.5 ul using a Covaris S2 Focused-ultrasocinicator with the following settings: Intensity 5.0; Duty cycle 10%25; Cycles per Burst 200; Treatment Time 120 seconds.Ê Sheared DNA is converted to blunt-ended fragments with 5'-phosphates and 3'-hydroxyl groups using a combination of enzymes that perform fill-in reactions and exhibit exonuclease activity.Ê Size selection of the blunt-ended DNA (200-450 bp average) is accomplished using bead-based methodologies.Ê An A-base is added to the blunt ends as a means to prepare the fragments for adapter ligation and block concatamer formation during the ligation step.Ê Adapters containing a T-base overhangÊ are ligated to the A-tailed DNA fragments.Ê Ligated fragments are PCR-amplified (2-10 cycles depending on quantity of input template) and the amplified library is purified by bead based methodologies.Ê The concentration of the lamplified ibrary is measured using the Invitrogen Qubit dsDNA HS Assay (Q32851) and an aliquot of the library is resolved on an Agilent 2200 Tape Station using a D1K (cat# 5067-5361 and 5067-5362) or a High Sensitivity D1K (cat# 5067-5363 and 5067-5364) assay to define the size distribution of the sequencing library.Ê Libraries are adjusted to a concentration of approximately 10 nM and quantitative PCR is performed using the KapaBiosystems Kapa Library Quant Kit (cat# KK4824) to calculate the molarity of adapter ligated library molecules.Ê The concentration is further adjusted following qPCR to prepare the library for Illumina sequence analysis."
